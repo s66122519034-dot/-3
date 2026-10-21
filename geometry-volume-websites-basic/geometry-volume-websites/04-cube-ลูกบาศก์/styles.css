@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 12px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.block {
+    border: 1px dashed #aaa;
+    padding: 10px;
+}
+
+h1, h2 { text-align: center; }
+header p { line-height: 1.5; }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.photo-block, .diagram-block { text-align: center; }
+img { height: 150px; max-width: 100%; }
+form p { margin: 8px 0; }
+input { width: 95px; }
+
+button {
+    background: steelblue;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+}
+
+#result { font-weight: bold; }
+
+@media (min-width: 576px) {
+    main { grid-template-columns: repeat(3, 1fr); }
+}

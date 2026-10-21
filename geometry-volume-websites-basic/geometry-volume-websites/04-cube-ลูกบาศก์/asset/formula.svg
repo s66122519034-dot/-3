@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img">
+<rect width="520" height="320" rx="14" fill="#f5f9fc"/>
+<g transform="translate(65 0) scale(0.95)"><path d="M112 97 L210 45 L306 98 L206 151 Z" fill="#bbdcf1" stroke="#28536e" stroke-width="3"/><path d="M112 97 L206 151 L206 252 L112 197 Z" fill="#83b5d4" stroke="#28536e" stroke-width="3"/><path d="M206 151 L306 98 L306 199 L206 252 Z" fill="#6a9fc1" stroke="#28536e" stroke-width="3"/></g>
+<rect x="28" y="264" width="464" height="40" rx="7" fill="#deedf9"/>
+<text x="260" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="25" fill="#22547b">V = s³</text>
+</svg>

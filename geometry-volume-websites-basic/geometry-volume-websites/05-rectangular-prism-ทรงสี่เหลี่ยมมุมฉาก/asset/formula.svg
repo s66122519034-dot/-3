@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img">
+<rect width="520" height="320" rx="14" fill="#f5f9fc"/>
+<g transform="translate(65 0) scale(0.95)"><path d="M75 108 L165 61 L327 61 L237 108 Z" fill="#bbdcf1" stroke="#28536e" stroke-width="3"/><path d="M75 108 L237 108 L237 225 L75 225 Z" fill="#88b9d7" stroke="#28536e" stroke-width="3"/><path d="M237 108 L327 61 L327 177 L237 225 Z" fill="#6c9fc1" stroke="#28536e" stroke-width="3"/></g>
+<rect x="28" y="264" width="464" height="40" rx="7" fill="#deedf9"/>
+<text x="260" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="25" fill="#22547b">V = l × w × h</text>
+</svg>

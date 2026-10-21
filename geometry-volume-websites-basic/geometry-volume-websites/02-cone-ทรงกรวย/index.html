@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <p><a href="../index.html">Back to all shapes</a></p>
+
+    <header class="block">
+        <h1>Cone</h1>
+        <p>A cone has one circular base and a pointed top called the apex. A traffic cone is a real-life example.</p>
+        <p>The radius (r) is measured from the center of the circular base to the edge. The height (h) is the perpendicular distance from the base to the apex.</p>
+    </header>
+
+    <main>
+        <div class="block photo-block">
+            <img src="asset/example.svg" alt="Traffic cone">
+            <p>Traffic cone</p>
+        </div>
+
+        <div class="block diagram-block">
+            <h2>Cone Volume</h2>
+            <img src="asset/formula.svg" alt="V = (π × r² × h) / 3">
+            <p>V = (π × r² × h) / 3</p>
+        </div>
+
+        <div class="block">
+            <h2>Volume Calculator</h2>
+            <form id="volumeCalculator">
+                <p><label for="inRadius">Radius:</label>
+                   <input type="number" id="inRadius" step="any" required></p>
+                <p><label for="inHeight">Height:</label>
+                   <input type="number" id="inHeight" step="any" required></p>
+                <p><label for="inUnit">Unit:</label>
+                   <select id="inUnit">
+                       <option value="cm">cm</option>
+                       <option value="mm">mm</option>
+                   </select></p>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </div>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

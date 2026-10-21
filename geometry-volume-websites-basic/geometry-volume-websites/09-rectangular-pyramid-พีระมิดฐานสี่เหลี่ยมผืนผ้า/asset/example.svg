@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" role="img">
+<rect width="400" height="290" rx="16" fill="#f5f9fc"/>
+<path d="M58 210 L213 37 L349 217 L168 255 Z" fill="#deb987" stroke="#966c43" stroke-width="3"/><path d="M58 210 L168 255 L213 37 Z" fill="#f0d4a3" stroke="#966c43" stroke-width="3"/><path d="M213 37 L349 217 L168 255" fill="#caa279" stroke="#966c43" stroke-width="3"/><path d="M58 210 L349 217" stroke="#966c43" stroke-dasharray="5 5"/>
+</svg>

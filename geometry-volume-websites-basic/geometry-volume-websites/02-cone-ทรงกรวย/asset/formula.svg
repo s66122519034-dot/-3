@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img">
+<rect width="520" height="320" rx="14" fill="#f5f9fc"/>
+<g transform="translate(65 0) scale(0.95)"><ellipse cx="200" cy="218" rx="92" ry="26" fill="#f9b667" stroke="#9d4e17" stroke-width="3"/><path d="M200 43 L108 218 A92 26 0 0 0 292 218 Z" fill="#ed8b41" stroke="#9d4e17" stroke-width="3"/><path d="M155 131 L245 131 L269 177 L131 177 Z" fill="#fff8e6" opacity=".95"/></g>
+<rect x="28" y="264" width="464" height="40" rx="7" fill="#deedf9"/>
+<text x="260" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="25" fill="#22547b">V = (π × r² × h) / 3</text>
+</svg>

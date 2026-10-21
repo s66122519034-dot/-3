@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangular Pyramid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <p><a href="../index.html">Back to all shapes</a></p>
+
+    <header class="block">
+        <h1>Rectangular Pyramid</h1>
+        <p>A rectangular pyramid has a rectangular base and four triangular sides that meet at one point.</p>
+        <p>Multiply the base length (l) by the width (w) and vertical height (h), then divide by three.</p>
+    </header>
+
+    <main>
+        <div class="block photo-block">
+            <img src="asset/example.svg" alt="Pyramid model">
+            <p>Pyramid model</p>
+        </div>
+
+        <div class="block diagram-block">
+            <h2>Rectangular Pyramid Volume</h2>
+            <img src="asset/formula.svg" alt="V = (l × w × h) / 3">
+            <p>V = (l × w × h) / 3</p>
+        </div>
+
+        <div class="block">
+            <h2>Volume Calculator</h2>
+            <form id="volumeCalculator">
+                <p><label for="inLength">Base length:</label>
+                   <input type="number" id="inLength" step="any" required></p>
+                <p><label for="inWidth">Base width:</label>
+                   <input type="number" id="inWidth" step="any" required></p>
+                <p><label for="inHeight">Height:</label>
+                   <input type="number" id="inHeight" step="any" required></p>
+                <p><label for="inUnit">Unit:</label>
+                   <select id="inUnit">
+                       <option value="cm">cm</option>
+                       <option value="mm">mm</option>
+                   </select></p>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </div>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

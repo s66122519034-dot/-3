@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img">
+<rect width="520" height="320" rx="14" fill="#f5f9fc"/>
+<g transform="translate(65 0) scale(0.95)"><path d="M74 226 L151 65 L226 226 Z" fill="#eacb84" stroke="#786136" stroke-width="3"/><path d="M151 65 L288 88 L365 230 L226 226 Z" fill="#bca170" stroke="#786136" stroke-width="3"/><path d="M74 226 L215 230 L365 230 L226 226" fill="none" stroke="#786136" stroke-width="3"/><path d="M151 65 L288 88 L215 230 L74 226" fill="none" stroke="#786136" stroke-width="3"/><path d="M151 65 L226 226" stroke="#786136" stroke-width="2"/></g>
+<rect x="28" y="264" width="464" height="40" rx="7" fill="#deedf9"/>
+<text x="260" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="25" fill="#22547b">V = (b × t × l) / 2</text>
+</svg>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <p><a href="../index.html">Back to all shapes</a></p>
+
+    <header class="block">
+        <h1>Cube</h1>
+        <p>A cube is a 3D shape with six equal square faces. A dice or a small gift box is an example.</p>
+        <p>All twelve edges have the same length (s). The volume is the side length multiplied three times.</p>
+    </header>
+
+    <main>
+        <div class="block photo-block">
+            <img src="asset/example.svg" alt="Dice">
+            <p>Dice</p>
+        </div>
+
+        <div class="block diagram-block">
+            <h2>Cube Volume</h2>
+            <img src="asset/formula.svg" alt="V = s³">
+            <p>V = s³</p>
+        </div>
+
+        <div class="block">
+            <h2>Volume Calculator</h2>
+            <form id="volumeCalculator">
+                <p><label for="inSide">Side:</label>
+                   <input type="number" id="inSide" step="any" required></p>
+                <p><label for="inUnit">Unit:</label>
+                   <select id="inUnit">
+                       <option value="cm">cm</option>
+                       <option value="mm">mm</option>
+                   </select></p>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </div>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

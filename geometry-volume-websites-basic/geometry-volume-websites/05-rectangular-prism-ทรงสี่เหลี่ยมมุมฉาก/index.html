@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangular Prism</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <p><a href="../index.html">Back to all shapes</a></p>
+
+    <header class="block">
+        <h1>Rectangular Prism</h1>
+        <p>A rectangular prism is a solid shape with six rectangular faces. A cardboard box is a common example.</p>
+        <p>The volume is calculated using its length (l), width (w), and height (h).</p>
+    </header>
+
+    <main>
+        <div class="block photo-block">
+            <img src="asset/example.svg" alt="Cardboard box">
+            <p>Cardboard box</p>
+        </div>
+
+        <div class="block diagram-block">
+            <h2>Rectangular Prism Volume</h2>
+            <img src="asset/formula.svg" alt="V = l × w × h">
+            <p>V = l × w × h</p>
+        </div>
+
+        <div class="block">
+            <h2>Volume Calculator</h2>
+            <form id="volumeCalculator">
+                <p><label for="inLength">Length:</label>
+                   <input type="number" id="inLength" step="any" required></p>
+                <p><label for="inWidth">Width:</label>
+                   <input type="number" id="inWidth" step="any" required></p>
+                <p><label for="inHeight">Height:</label>
+                   <input type="number" id="inHeight" step="any" required></p>
+                <p><label for="inUnit">Unit:</label>
+                   <select id="inUnit">
+                       <option value="cm">cm</option>
+                       <option value="mm">mm</option>
+                   </select></p>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </div>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
